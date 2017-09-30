@@ -5,6 +5,7 @@ import java.net.URL;
 
 /**
  * Created by Kakao on 2017. 9. 30..
+ * host로 Http 요청을 보내 인터넷 연결 상태 확인
  */
 
 public class CheckInternetConnect extends Thread{

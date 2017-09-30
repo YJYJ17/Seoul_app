@@ -19,6 +19,11 @@ import com.gun0912.tedpermission.TedPermission;
 
 import java.util.ArrayList;
 
+/**
+ * Created by Kakao on 2017. 9. 30..
+ * 현재 시스템의 네트워크 상태 확인, 업데이트 확인, 퍼미션 확인
+ */
+
 public class SplashActivity extends AppCompatActivity {
 
     public static final String WIFI_STATE = "WIFI";
@@ -36,7 +41,6 @@ public class SplashActivity extends AppCompatActivity {
             PermissionListener permissionlistener = new PermissionListener() {
                 @Override
                 public void onPermissionGranted() {
-
 
                     //버전 체크
 
